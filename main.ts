@@ -1,11 +1,11 @@
 input.onButtonPressed(Button.A, function () {
-    A = 0
+    B += 1
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showNumber(A + B)
 })
 input.onButtonPressed(Button.B, function () {
-    B = 0
+    B += -1
 })
 input.onGesture(Gesture.Shake, function () {
     A = 0
